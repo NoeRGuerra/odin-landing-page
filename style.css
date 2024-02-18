@@ -88,7 +88,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 50px 0 120px 0;
 }
 
 #featured-header {
@@ -172,9 +172,10 @@ button {
 
 .cta-button {
     color: white;
-    border: solid white;
-    padding: 10px;
+    border: solid white 1px;
+    padding: 10px 20px;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 .footer{
