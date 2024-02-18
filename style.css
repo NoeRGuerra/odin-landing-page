@@ -16,16 +16,16 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 200px 100px 200px;
+    color: white;
     background-color: #1f2937;
 }
 
 .header {
     display: flex;
     flex: 1;
-    color: white;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 #logo {
@@ -45,7 +45,6 @@ body {
 
 .hero {
     display: flex;
-    color: white;
     justify-content: space-between;
 }
 
@@ -80,6 +79,46 @@ button {
     border: none;
     border-radius: 20px;
     font-weight: 900;
-    color: white;
     margin-top: 10px;
+}
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#featured-header{
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    padding: 50px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.thumbnails{
+    display: flex;
+    padding: 0 400px;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 170px;
+    flex-wrap: wrap;
+}
+
+.card .text{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.thumbnail{
+    width: 170px;
+    height: 170px;
+    border: solid #3882f6 ;
+    border-radius: 15px;
 }
