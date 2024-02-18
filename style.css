@@ -87,13 +87,13 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 100px 0;
 }
 
 #featured-header{
     font-family: Roboto, sans-serif;
     font-size: 36px;
-    padding: 50px;
+    padding-bottom: 50px;
     font-weight: bolder;
     color: #1f2937;
 }
@@ -121,4 +121,24 @@ button {
     height: 170px;
     border: solid #3882f6 ;
     border-radius: 15px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 400px 80px 400px;
+    align-items: flex-end;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-name{
+    font-size: 24px;
+    font-weight: bolder;
 }
