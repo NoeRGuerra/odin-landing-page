@@ -82,7 +82,7 @@ button {
     margin-top: 10px;
 }
 
-.featured{
+.featured {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,7 +90,7 @@ button {
     padding: 100px 0;
 }
 
-#featured-header{
+#featured-header {
     font-family: Roboto, sans-serif;
     font-size: 36px;
     padding-bottom: 50px;
@@ -98,32 +98,32 @@ button {
     color: #1f2937;
 }
 
-.thumbnails{
+.thumbnails {
     display: flex;
     padding: 0 400px;
     justify-content: space-between;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     flex-basis: 170px;
     flex-wrap: wrap;
 }
 
-.card .text{
+.card .text {
     margin-top: 5px;
     text-align: center;
 }
 
-.thumbnail{
+.thumbnail {
     width: 170px;
     height: 170px;
-    border: solid #3882f6 ;
+    border: solid #3882f6;
     border-radius: 15px;
 }
 
-.quote{
+.quote {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -131,14 +131,47 @@ button {
     align-items: flex-end;
 }
 
-.quote-text{
+.quote-text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
 }
 
-.quote-name{
+.quote-name {
     font-size: 24px;
     font-weight: bolder;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 300px;
+}
+
+.cta {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-body {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.cta-button {
+    color: white;
+    border: solid white;
+    padding: 10px;
+    border-radius: 10px;
 }
